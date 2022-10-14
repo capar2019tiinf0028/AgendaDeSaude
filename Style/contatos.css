@@ -1,0 +1,308 @@
+body {
+    background-color: rgb(173, 207, 252);
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    transition: 0, 3;
+}
+
+a.hover {
+    opacity: 0, 7;
+}
+
+.logo {
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+    background: #23232e;
+    height: Bvh;
+    border-radius: 5px;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+}
+
+.nav-list li {
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+    background: #23232e;
+    height: 10vh;
+}
+
+/* From uiverse.io by @gagan-gv */
+.card {
+    width: 200px;
+    height: 250px;
+    background: #f39b37;
+    border-radius: 5px;
+    text-align: center;
+    color: #f0f0f0;
+    font-family: inherit;
+    z-index: 1;
+}
+
+.img {
+    display: flex;
+    margin: 60px auto 10px auto;
+    width: 75px;
+    height: 75px;
+    border: 1px solid #f0f0f0;
+    border-radius: 50%;
+    font-size: 11px;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s;
+    z-index: 99;
+    background-color: #ec7f4c;
+}
+
+p {
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+h1 {
+    padding: 10px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+svg {
+    padding: 0 5px;
+    cursor: pointer;
+}
+
+.card:hover .img {
+    transform: scale(1.1);
+    border: 1px solid #f0f0f0;
+}
+
+.card:hover h1,
+.card:hover p {
+    opacity: 1;
+}
+
+/* From uiverse.io by @gagan-gv */
+.card {
+    width: 200px;
+    height: 250px;
+    background: #07182E;
+    border-radius: 5px;
+    text-align: center;
+    color: #f0f0f0;
+    font-family: inherit;
+    z-index: 1;
+}
+
+.img {
+    display: flex;
+    margin: 60px auto 10px auto;
+    width: 75px;
+    height: 75px;
+    border: 1px solid #f0f0f0;
+    border-radius: 50%;
+    font-size: 11px;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s;
+    z-index: 99;
+    background-color: #152f50;
+}
+
+p {
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+h1 {
+    padding: 10px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+svg {
+    padding: 0 5px;
+    cursor: pointer;
+}
+
+.card:hover .img {
+    transform: scale(1.1);
+    border: 1px solid #f0f0f0;
+}
+
+.card:hover h1,
+.card:hover p {
+    opacity: 1;
+}
+
+/* From uiverse.io by @gagan-gv */
+.card {
+    width: 200px;
+    height: 250px;
+    background: #07182E;
+    border-radius: 5px;
+    text-align: center;
+    color: #f0f0f0;
+    font-family: inherit;
+    z-index: 1;
+}
+
+.img {
+    display: flex;
+    margin: 60px auto 10px auto;
+    width: 75px;
+    height: 75px;
+    border: 1px solid #f0f0f0;
+    border-radius: 50%;
+    font-size: 11px;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s;
+    z-index: 99;
+    background-color: #152f50;
+}
+
+p {
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+h1 {
+    padding: 10px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+svg {
+    padding: 0 5px;
+    cursor: pointer;
+}
+
+.card:hover .img {
+    transform: scale(1.1);
+    border: 1px solid #f0f0f0;
+}
+
+.card:hover h1,
+.card:hover p {
+    opacity: 1;
+}
+
+/* From uiverse.io by @gagan-gv */
+.card {
+    width: 200px;
+    height: 250px;
+    background: #07182E;
+    border-radius: 5px;
+    text-align: center;
+    color: #f0f0f0;
+    font-family: inherit;
+    z-index: 1;
+}
+
+.img {
+    display: flex;
+    margin: 60px auto 10px auto;
+    width: 75px;
+    height: 75px;
+    border: 1px solid #f0f0f0;
+    border-radius: 50%;
+    font-size: 11px;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s;
+    z-index: 99;
+    background-color: #152f50;
+}
+
+p {
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+h1 {
+    padding: 10px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+svg {
+    padding: 0 5px;
+    cursor: pointer;
+}
+
+.card:hover .img {
+    transform: scale(1.1);
+    border: 1px solid #f0f0f0;
+}
+
+.card:hover h1,
+.card:hover p {
+    opacity: 1;
+}
+
+
+.formulario {
+    width: min-content;
+    text-align: center;
+    margin: 10% auto;
+    border: 5px solid #23232e;
+    border-radius: 5px;
+    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+    font-size: 2em;
+    color: white;
+    background-color: rgb(35, 35, 46);
+}
+
+input{
+    /*
+    padding-left: 200px;
+    padding-top: 10px;
+    */
+    font-size: 0.8em;
+    width: max-content;
+}
+
+textarea {
+    font-size: 0.8em;
+}
+
+.form_label {
+    text-align: right;
+}
+
+.enviar {
+    background-color: #45d22f;
+    font-size: 0.8em;
+    color: #ffffff;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.resetar {
+    background-color: #d22f45;
+    font-size: 0.8em;
+    color: #ffffff;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}

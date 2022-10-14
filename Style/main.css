@@ -1,0 +1,124 @@
+body {
+    background-color: #efa09b;
+    color: #fff;
+}
+*{
+    margin: 0%;
+    padding: 0%;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+a.hover{
+    opacity: 0.7;
+}
+.logo{
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: system-ui,-apple-system,Helvetica,Arial,sans-serif;
+    background: #23233e;
+    height: 8vh;
+}
+.nav-list{
+    list-style: none;
+    display: flex;
+}
+.nav-list li{
+    letter-spacing: 3px;
+    margin-left: 32px;
+
+}
+.logo1{
+    width: 80%;
+}
+.flex {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    justify-content: space-between;
+}
+footer {
+    background-color: #23233e;
+    padding: 25px 0 20px;
+}
+
+footer small {
+    color: #ddd;
+    font-size: 0.9em;
+}
+
+footer small .footer-heart {
+    font-size: 16px;
+}
+
+footer small a {
+    color: #007BDC;
+}
+
+footer ul {
+    list-style-type: none;
+    margin: 0;
+}
+
+footer ul li {
+    display: inline-block;
+    margin: 0 12px;
+}
+
+footer ul li a {
+    color: #ddd;
+    font-size: 0.8em;
+}
+.Fbia{
+    margin-left: 5px;
+    width: 40%;
+}
+.texto2{
+    margin-left: 30px;
+    width: 20%;
+    text-align: center; 
+}
+.texto3{
+    margin-left: 30px;
+    width: 20%; 
+    text-align: center; 
+}
+.texto4{
+    margin-left: 30px;
+    width: 20%;
+    text-align: center; 
+}
+.texto5{
+    margin-left: 30px;
+    width: 20%;
+    text-align: center;  
+}
+.ficha{
+    margin-left: 30px;
+    width: 20%;  
+    text-align: center;  
+}
+.logotype{
+    width: 50%;
+}
+.t1{
+    background-color: #007BDC;
+}
+.t2{
+    background-color: #007BDC;
+}
+.t3{
+    background-color: #007BDC;
+}
+.t4{
+    background-color: #007BDC;
+}
